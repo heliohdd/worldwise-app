@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { polyfillCountryFlagEmojis } from "country-flag-emoji-polyfill";
 
 import Product from "./pages/Product";
 import Pricing from "./pages/Pricing";
@@ -11,6 +12,8 @@ import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./contexts/CitiesContext";
+
+polyfillCountryFlagEmojis();
 
 function App() {
   return (

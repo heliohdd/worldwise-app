@@ -1,4 +1,5 @@
-import { useParams } from "react-router-dom";
+/* eslint-disable no-unused-vars */
+import { useParams, useSearchParams } from "react-router-dom";
 import styles from "./City.module.css";
 import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
@@ -13,9 +14,23 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
+const flagemojiToPNG = (flag) => {
+  var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
+    .map((char) => String.fromCharCode(char - 127397).toLowerCase())
+    .join("");
+  return (
+    <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
+  );
+};
+
 function City() {
   const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
+
+  // # Conferir erro no mapa
+  const [searchParams, setSearchParams] = useSearchParams();
+  const lat = searchParams.get("lat");
+  const lng = searchParams.get("lng");
 
   useEffect(
     function () {

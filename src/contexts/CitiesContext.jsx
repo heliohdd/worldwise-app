@@ -2,9 +2,9 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useState, useEffect, useContext } from "react";
 
-const CitiesContext = createContext();
-
 const BASE_URL = "http://localhost:9000";
+
+const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);

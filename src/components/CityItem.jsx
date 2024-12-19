@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import styles from "./CityItem.module.css";
 import { useCities } from "../contexts/CitiesContext";
@@ -9,8 +10,6 @@ const formatDate = (date) =>
     year: "numeric",
   }).format(new Date(date));
 
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 function CityItem({ city }) {
   const { currentCity } = useCities();
   const { cityName, emoji, date, id, position } = city;
