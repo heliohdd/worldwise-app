@@ -1,39 +1,39 @@
 {
   "cities": [
     {
-      "id": "7c72",
-      "cityName": "Dauzat-sur-Vodable",
+      "id": "2269",
+      "cityName": "Saint-Maur-des-Fosses",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2024-12-20T11:28:21.286Z",
-      "notes": "asdfasdf",
+      "date": "2024-12-20T18:33:51.035Z",
+      "notes": "Une très bèle voyage",
       "position": {
-        "lat": "45.47554027158593",
-        "lng": "3.09814453125"
+        "lat": "48.80686346108519",
+        "lng": "2.5048828125000004"
       }
     },
     {
-      "id": "8117",
-      "cityName": "Arganil",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-12-20T11:34:07.799Z",
-      "notes": "A Portuguese city now",
+      "id": "f10c",
+      "cityName": "Spoleto",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2024-12-20T18:34:27.659Z",
+      "notes": "Je ai le réve de voyager sur ce place.",
       "position": {
-        "lat": "40.212440718286466",
-        "lng": "-8.129882812500002"
+        "lat": "42.66628070564928",
+        "lng": "12.678222656250002"
       }
     },
     {
-      "id": "487d",
-      "cityName": "Meda",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-12-20T11:34:54.031Z",
-      "notes": "asdfasdf",
+      "id": "65eb",
+      "cityName": "Villar del Olmo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-20T18:37:48.740Z",
+      "notes": "",
       "position": {
-        "lat": "40.91351257612758",
-        "lng": "-7.250976562500001"
+        "lat": "40.34654412118006",
+        "lng": "-3.27392578125"
       }
     }
   ]
