@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,91 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "50c4",
+      "cityName": "Suevres",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-20T11:21:29.787Z",
+      "notes": "",
+      "position": {
+        "lat": "47.66538735632654",
+        "lng": "1.4941406250000002"
+      }
+    },
+    {
+      "id": "9dba",
+      "cityName": "la Vansa i Fornols",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-20T11:28:06.114Z",
+      "notes": "asdfasd",
+      "position": {
+        "lat": "42.24478535602799",
+        "lng": "1.4282226562500002"
+      }
+    },
+    {
+      "id": "7c72",
+      "cityName": "Dauzat-sur-Vodable",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-20T11:28:21.286Z",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "45.47554027158593",
+        "lng": "3.09814453125"
+      }
+    },
+    {
+      "id": "8117",
+      "cityName": "Arganil",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-12-20T11:34:07.799Z",
+      "notes": "A Portuguese city now",
+      "position": {
+        "lat": "40.212440718286466",
+        "lng": "-8.129882812500002"
+      }
+    },
+    {
+      "id": "487d",
+      "cityName": "Meda",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-12-20T11:34:54.031Z",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "40.91351257612758",
+        "lng": "-7.250976562500001"
+      }
+    },
+    {
+      "id": "be2f",
+      "cityName": "Oropesa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-20T11:37:43.666Z",
+      "notes": "asdfasdf",
+      "position": {
+        "lat": "40.04768446050473",
+        "lng": "-5.331316403090461"
+      }
+    },
+    {
+      "id": "847c",
+      "cityName": "Torre-Cardela",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-12-20T11:40:33.288Z",
+      "notes": "asdfadsf",
+      "position": {
+        "lat": "37.49573547353074",
+        "lng": "-3.3767097084372537"
+      }
     }
   ]
 }
